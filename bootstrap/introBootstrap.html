@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Indroduction Bootstrap</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">
+		[class*="col-"] {
+         background-color: lightgreen;
+         border: 2px solid black;
+         border-radius: 5px;
+         line-height: 40px;
+         text-align: center;
+         }
+         
+    body{background-color: Azure;}       
+
+	</style>
+</head>
+<body>
+   <div class="container"> 
+   	 <div class="row"> 
+   	  <div class="col-xs-12 col-md-12">douze
+   	  <div class="row">
+           <div class="col-md-1 invisible"></div>
+           <div class="col-xs-4 col-md-2">Japhet</div>
+           <div class="col-xs-4 col-md-2 invisible">Japhet</div>
+           <div class="col-xs-5 col-md-3">ça</div>
+           <div class="col-xs-4 col-md-2 invisible">Japhet</div>
+           <div class="col-xs-4 col-md-2">va??</div>
+   	  </div>
+      </div>
+     </div>
+    </div> 
+    <hr><!-- exercice trois-->
+   <div class="container">
+      <div class="row">
+         <div class="row">
+      	    <div class="col-xs-6 col-md-4">Nouvel</div>
+      	    <div class="col-xs-10 col-md-8">Excercice
+                <div class="row">
+      	            <div class="col-xs-5 col-md-3">Ces blocs</div>
+      	            <div class="col-xs-8 col-md-6">sont tous</div>
+      	            <div class="col-xs-5 col-md-3">dans</div>
+                </div>
+                <div class="row">
+      	            <div class="col-xs-5 col-md-4">la meme</div>
+      	            <div class="col-xs-8 col-md-4">div où est</div>
+      	            <div class="col-xs-5 col-md-4">inscrit"Excercice"</div>
+                </div>
+                <div class="row">
+      	            <div class="col-xs-7 col-md-5">comment </div>
+      	            <div class="col-xs-4 col-md-2">es </div>
+      	            <div class="col-xs-7 col-md-5">inscrit"Excercice"</div>
+                </div>
+      	    </div>
+         </div>
+      </div>   
+   </div>
+   <hr>
+   <div class="container">
+       <div class="row">
+          <div class="col-xs-12 col-md-12"> 12 colonnes
+              <div class="row">
+                  <div class="col-xs-4 col-md-1 invisible">2 de 1</div>
+                  <div class="col-xs-4 col-md-2">2 de 1</div>
+                  <div class="col-xs-4 col-md-2 invisible">2 de 2</div>
+                  <div class="col-xs-4 col-md-2 col-md-push-4">3 de 2</div>
+                  <div class="col-xs-4 col-md-2 invisible">2 de 1</div>
+                  <div class="col-xs-4 col-md-2 col-md-pull-4">2 de 2</div>
+              </div>    
+          </div>     
+       </div>	
+   </div>
+   <hr><!--excercice4 bootstrap-->
+   <div class="container">
+       <div class="row">
+       	   <div class="col-xs-6 col-md-6">6 colonnes
+               <div class="row">
+               	   <div class="col-xs-12 col-md-12" style="border-top:0">
+               	   	   <div class="row">
+               	   	   	   <div class="col-xs-6 col-md-4 col-md-pull-0">4 colonnes</div>
+               	   	   	   <div class="col-xs-6 col-md-4 col-md-push-4">4 colonnes</div>
+               	   	   </div>
+               	   </div>
+               </div>
+       	   </div>
+       	   <div class="col-xs-6 col-md-6 ">6 colonnes
+               <div class="row">
+               	   <div class="col-xs-12 col-md-12" style="border-top:none">
+               	   	   <div class="row">
+               	   	   	   <div class="col-xs-6 col-md-4"><!--col-md-pull-0">-->4 colonnes</div>
+               	   	   	   <div class="col-xs-6 col-md-4 invisible">à supprimer</div>
+               	   	   	   <div class="col-xs-6 col-md-4"><!--col-md-push-4">-->4 colonnes</div>
+               	   	   </div>
+               	   </div>
+               </div>
+       	   </div>
+       </div>
+   </div>
+
+   <script src="js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
